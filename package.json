@@ -1,0 +1,18 @@
+{
+  "name": "@berkelium/solias-components",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/solias-components.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
