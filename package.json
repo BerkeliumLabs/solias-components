@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "dist/solias-components.js",
+  "main": "dist/solias-components.cjs",
+  "module": "dist/solias-components.js",
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "publish:lib": "npm publish --access public"
   },
   "dependencies": {
     "lit": "^3.1.2"
@@ -15,5 +17,20 @@
     "sass": "^1.77.1",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BerkeliumLabs/solias-components"
+  },
+  "files": [
+    "dist/"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "web components"
+  ],
+  "bugs": {
+    "url": "https://github.com/BerkeliumLabs/solias-components/issues"
+  },
+  "homepage": "https://www.buddhilive.com"
 }
