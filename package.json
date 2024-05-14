@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/solias-components.js",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build"
   },
   "dependencies": {
