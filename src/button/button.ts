@@ -14,7 +14,7 @@ export class SoliasButton extends LitElement {
 
     static styles = css`
     .solias-btn {
-        background-color: red;
+        background-color: var(--btn-color);
         color: #fff;
     }
     `;
