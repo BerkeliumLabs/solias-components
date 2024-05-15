@@ -1,7 +1,6 @@
-:root {
-    --btn-color: #b83c3c;
-}
+@import "./theme";
 
-body {
-    background-color: #242422;
+html, body {
+    margin: 0;
+    padding: 0;
 }
