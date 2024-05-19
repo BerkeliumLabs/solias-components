@@ -37,3 +37,9 @@ export class SoliasBadge extends LitElement {
     }
     `;
 }
+
+declare global {
+    interface HTMLElementTagNameMap {
+        'solias-badge': SoliasBadge
+    }
+}
