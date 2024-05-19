@@ -9,6 +9,7 @@
     <style lang="scss">
       @import "/src/scss/styles.scss";
     </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="light">
     <p>Notifications<solias-badge label="30066666"></solias-badge></p>
@@ -17,6 +18,15 @@
       <solias-button label="Click Me" variant="secondary"></solias-button>
       <solias-button label="Click Me" variant="tertiary"></solias-button>
       <solias-button label="Click Me" disabled="true"></solias-button>
+    </div>
+    <div style="width: 360px; margin: 16px">
+      <solias-card type="horizontal">
+        <p slot="icon"></p>
+        <h4 slot="title">Header</h4>
+        <p slot="subtitle">Subheading</p>
+        <div slot="body">Body</div>
+        <solias-button slot="footer"></solias-button>
+      </solias-card>
     </div>
   </body>
 </html>
